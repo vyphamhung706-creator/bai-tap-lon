@@ -1,46 +1,51 @@
 # WEBSITE GIỚI THIỆU ĐẠI HỌC ĐẠI NAM
 
-## 1. Giới thiệu dự án
-Đây là website giới thiệu Trường Đại học Đại Nam, được xây dựng nhằm cung cấp những thông tin cơ bản về nhà trường, ngành đào tạo và môi trường học tập.
+## 1. Giới thiệu
 
-## 2. Công nghệ sử dụng
-- HTML5: Xây dựng cấu trúc nội dung website.
-- CSS3: Thiết kế giao diện, màu sắc và bố cục.
-- Không sử dụng JavaScript.
+Dự án xây dựng website tĩnh giới thiệu Trường Đại học Đại Nam,
+trình bày thông tin tổng quan, một số ngành học, hình ảnh
+và liên kết liên hệ.
 
-## 3. Các chức năng và nội dung chính
-- Giới thiệu tổng quan về trường.
-- Hiển thị hình ảnh và banner.
-- Giới thiệu một số ngành đào tạo.
-- Thư viện hình ảnh.
-- Khu vực thông tin liên hệ.
-- Thanh điều hướng giữa các phần.
+## 2. Đối tượng người xem
 
-## 4. Cấu trúc thư mục
-BAI TAP LON THIET KE WEBSITE/
-│
-├── index.html                 # Trang chính của website
-│
-├── style.css                  # File định dạng giao diện
-│
-├── Logo-DH-Dai-Nam-.webp      # Logo Đại học Đại Nam
-│
-├── anh chinh.jpg              # Hình ảnh chính
-├── anh2.webp                  # Hình ảnh 2
-├── anh3.jpg                   # Hình ảnh 3
-├── anh4.jpg                   # Hình ảnh 4
-├── anh5.jpg                   # Hình ảnh 5
-│
-├── README.md                  # Giới thiệu và hướng dẫn dự án
-├── AI_LOG.md                  # Nhật ký sử dụng AI
-└── CHANGELOG.md               # Nhật ký thay đổi
-## 5. Hướng dẫn chạy website
-1. Tải hoặc sao chép toàn bộ thư mục dự án về máy.
-2. Mở thư mục dự án.
-3. Nhấn đúp vào file `index.html`.
-4. Website sẽ hiển thị trên trình duyệt.
+- Học sinh đang tìm hiểu trường đại học.
+- Phụ huynh và người quan tâm đến nhà trường.
+- Sinh viên muốn xem thông tin giới thiệu cơ bản.
 
-## 6. Tác giả
-Sinh viên thực hiện: Phạm Hùng Vỹ
+## 3. Mục tiêu
 
-Đề tài: Website giới thiệu Trường Đại học Đại Nam.
+- Trình bày thông tin theo bố cục rõ ràng.
+- Giúp người xem di chuyển nhanh giữa các phần.
+- Hiển thị phù hợp trên máy tính và điện thoại.
+- Thực hành HTML5 và CSS3.
+
+## 4. Công nghệ
+
+- HTML5: cấu trúc và nội dung.
+- CSS3: màu sắc, bố cục, hiệu ứng và responsive.
+- Không sử dụng JavaScript hoặc backend.
+
+## 5. Nội dung website
+
+1. Trang chủ và banner.
+2. Giới thiệu.
+3. Một số ngành học tiêu biểu.
+4. Thư viện hình ảnh.
+5. Thông tin liên hệ và biểu mẫu minh họa.
+6. Chân trang.
+
+## 6. Cấu trúc thư mục
+
+```text
+bai tap lon thiet ke website/
+├── index.html
+├── style.css
+├── Logo-DH-Dai-Nam-.webp
+├── anh chinh.jpg
+├── anh2.webp
+├── anh3.jpg
+├── anh4.jpg
+├── anh5.jpg
+├── README.md
+├── AI_LOG.md
+└── CHANGELOG.md
