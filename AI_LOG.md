@@ -100,7 +100,7 @@ Tình trạng: Đã rà soát xong. Chưa sửa mã nguồn.
 - Tất cả đường neo trong menu trỏ tới ID hiện có trong trang.
 - Các nguồn ảnh được tham chiếu tồn tại trong thư mục dự án:
   - `Logo-DH-Dai-Nam-.webp`
-  - `anh chinh.jpg`
+  - `anhchinh.jpg`
   - `anh2.webp`
   - `anh3.jpg`
   - `anh4.jpg`
