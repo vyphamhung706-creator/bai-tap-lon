@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Đại học Đại Nam</title>
+    <meta name="description"
+        content="Website giới thiệu Trường Đại học Đại Nam, ngành đào tạo và môi trường học tập.">
 
-    <!-- Kết nối file CSS -->
+    <meta name="author" content="Phạm Hùng Vỹ">
+
+    <title>Đại học Đại Nam | Website giới thiệu</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- HEADER: PHẦN ĐẦU TRANG -->
-    <header>
+    <!-- HEADER -->
+    <header id="trangchu">
+
         <div class="header-container">
 
-            <div class="logo">
-                <img src="Logo-DH-Dai-Nam-.webp" alt="Logo Đại học Đại Nam">
+            <a class="logo" href="#trangchu">
 
-                <div class="logo-text">
+                <img src="Logo-DH-Dai-Nam-.webp"
+                    alt="Logo Đại học Đại Nam">
+
+                <div>
                     <h2>ĐẠI HỌC ĐẠI NAM</h2>
                     <p>Học để thay đổi - Sống để cống hiến</p>
                 </div>
-            </div>
 
-            <!-- MENU ĐIỀU HƯỚNG -->
+            </a>
+
             <nav>
                 <a href="#trangchu">Trang chủ</a>
                 <a href="#gioithieu">Giới thiệu</a>
@@ -35,13 +43,14 @@
             </nav>
 
         </div>
+
     </header>
 
 
     <main>
 
-        <!-- BANNER: TRANG CHỦ -->
-        <section class="banner" id="trangchu">
+        <!-- BANNER -->
+        <section class="banner">
 
             <div class="banner-content">
 
@@ -55,7 +64,8 @@
 
                 <p>
                     Môi trường học tập năng động, sáng tạo,
-                    nơi chắp cánh ước mơ và phát triển tài năng sinh viên.
+                    nơi chắp cánh ước mơ và giúp sinh viên
+                    phát triển kiến thức, kỹ năng.
                 </p>
 
                 <a href="#gioithieu" class="button">
@@ -64,21 +74,24 @@
 
             </div>
 
-            <!-- HÌNH ẢNH BANNER -->
             <div class="banner-visual">
 
                 <div class="visual-frame">
-                    <img src="anh chinh.jpg"
-                         alt="Khuôn viên Trường Đại học Đại Nam">
+
+                    <img src="anh_chinh.jpg"
+                        alt="Cổng Trường Đại học Đại Nam">
+
                 </div>
 
                 <div class="visual-label">
+
                     <span class="label-icon">✦</span>
 
                     <div>
                         <strong>ĐẠI HỌC ĐẠI NAM</strong>
                         <p>Môi trường học tập năng động</p>
                     </div>
+
                 </div>
 
                 <div class="visual-circle"></div>
@@ -92,6 +105,7 @@
         <section class="section" id="gioithieu">
 
             <div class="section-title">
+
                 <span>VỀ CHÚNG TÔI</span>
 
                 <h2>Giới thiệu Đại học Đại Nam</h2>
@@ -99,13 +113,16 @@
                 <p>
                     Chất lượng đào tạo là nền tảng của sự phát triển
                 </p>
+
             </div>
 
             <div class="intro-container">
 
                 <div class="intro-image">
+
                     <img src="anh2.webp"
-                         alt="Hình ảnh Đại học Đại Nam">
+                        alt="Tòa nhà Đại học Đại Nam">
+
                 </div>
 
                 <div class="intro-content">
@@ -113,21 +130,25 @@
                     <h3>Hành trình kiến tạo tri thức</h3>
 
                     <p>
-                        Trường Đại học Đại Nam là cơ sở giáo dục đại học
-                        định hướng ứng dụng, chú trọng đào tạo nguồn nhân lực
-                        có kiến thức, kỹ năng và khả năng thích ứng với xã hội.
+                        Trường Đại học Đại Nam là cơ sở giáo dục
+                        đại học định hướng ứng dụng, chú trọng
+                        đào tạo nguồn nhân lực có kiến thức,
+                        kỹ năng và khả năng thích ứng với xã hội.
                     </p>
 
                     <p>
-                        Nhà trường không ngừng đổi mới chương trình đào tạo,
-                        nâng cao chất lượng giảng dạy và tạo điều kiện để
-                        sinh viên phát triển toàn diện.
+                        Nhà trường không ngừng đổi mới chương trình
+                        đào tạo, nâng cao chất lượng giảng dạy
+                        và tạo điều kiện để sinh viên phát triển
+                        toàn diện.
                     </p>
 
                     <div class="intro-highlight">
+
                         <strong>Học tập</strong>
                         <strong>Sáng tạo</strong>
                         <strong>Phát triển</strong>
+
                     </div>
 
                 </div>
@@ -137,108 +158,127 @@
         </section>
 
 
-        <!-- NGÀNH ĐÀO TẠO -->
+        <!-- NGÀNH HỌC -->
         <section class="section major-section" id="nganhhoc">
 
             <div class="section-title">
+
                 <span>CHƯƠNG TRÌNH ĐÀO TẠO</span>
 
                 <h2>Khám phá ngành học</h2>
 
-                <p>Lựa chọn ngành học - Định hướng tương lai</p>
+                <p>
+                    Một số lĩnh vực đào tạo được giới thiệu
+                    trên website
+                </p>
+
             </div>
 
             <div class="major-container">
 
-                <div class="major-card">
+                <article class="major-card">
+
                     <div class="major-icon">💻</div>
 
                     <h3>Công nghệ thông tin</h3>
 
                     <p>
-                        Trang bị kiến thức về lập trình, phần mềm,
-                        hệ thống máy tính và công nghệ hiện đại.
+                        Trang bị kiến thức về lập trình,
+                        phần mềm, hệ thống máy tính
+                        và công nghệ hiện đại.
                     </p>
 
                     <a href="#lienhe">Tìm hiểu thêm →</a>
-                </div>
 
+                </article>
 
-                <div class="major-card">
+                <article class="major-card">
+
                     <div class="major-icon">📊</div>
 
                     <h3>Quản trị kinh doanh</h3>
 
                     <p>
-                        Phát triển kỹ năng quản lý, điều hành,
-                        kinh doanh và tư duy khởi nghiệp.
+                        Phát triển kiến thức và kỹ năng
+                        quản lý, điều hành, kinh doanh
+                        và tư duy khởi nghiệp.
                     </p>
 
                     <a href="#lienhe">Tìm hiểu thêm →</a>
-                </div>
 
+                </article>
 
-                <div class="major-card">
+                <article class="major-card">
+
                     <div class="major-icon">🌍</div>
 
                     <h3>Ngôn ngữ Anh</h3>
 
                     <p>
-                        Nâng cao năng lực ngoại ngữ, giao tiếp
-                        và khả năng làm việc trong môi trường quốc tế.
+                        Nâng cao năng lực ngoại ngữ,
+                        giao tiếp và khả năng làm việc
+                        trong môi trường quốc tế.
                     </p>
 
                     <a href="#lienhe">Tìm hiểu thêm →</a>
-                </div>
+
+                </article>
 
             </div>
 
         </section>
 
 
-        <!-- HÌNH ẢNH -->
+        <!-- THƯ VIỆN HÌNH ẢNH -->
         <section class="section" id="hinhanh">
 
             <div class="section-title">
-                <span>KHOẢNH KHẮC SINH VIÊN</span>
+
+                <span>KHOẢNH KHẮC ĐẠI NAM</span>
 
                 <h2>Hình ảnh nổi bật</h2>
 
                 <p>
-                    Khám phá môi trường học tập và hoạt động tại trường
+                    Khám phá khuôn viên, hoạt động sinh viên
+                    và không gian học tập
                 </p>
+
             </div>
 
             <div class="gallery">
 
-                <div class="gallery-item">
+                <figure class="gallery-item">
+
                     <img src="anh3.jpg"
-                         alt="Khuôn viên trường">
+                        alt="Khuôn viên Đại học Đại Nam">
 
-                    <div class="gallery-caption">
+                    <figcaption class="gallery-caption">
                         Khuôn viên trường
-                    </div>
-                </div>
+                    </figcaption>
 
+                </figure>
 
-                <div class="gallery-item">
+                <figure class="gallery-item">
+
                     <img src="anh4.jpg"
-                         alt="Sinh viên Đại Nam">
+                        alt="Hoạt động sinh viên Đại Nam">
 
-                    <div class="gallery-caption">
+                    <figcaption class="gallery-caption">
                         Hoạt động sinh viên
-                    </div>
-                </div>
+                    </figcaption>
 
+                </figure>
 
-                <div class="gallery-item">
+                <figure class="gallery-item">
+
                     <img src="anh5.jpg"
-                         alt="Lớp học">
+                        alt="Sinh viên học tập trong phòng thực hành">
 
-                    <div class="gallery-caption">
+                    <figcaption class="gallery-caption">
                         Không gian học tập
-                    </div>
-                </div>
+                    </figcaption>
+
+                </figure>
 
             </div>
 
@@ -249,17 +289,21 @@
         <section class="contact-section" id="lienhe">
 
             <div class="section-title">
+
                 <span>KẾT NỐI VỚI CHÚNG TÔI</span>
 
-                <h2>Liên hệ tư vấn</h2>
+                <h2>Thông tin liên hệ</h2>
 
                 <p>
-                    Để lại thông tin để được hỗ trợ và tư vấn
+                    Truy cập kênh chính thức của nhà trường
+                    để tìm hiểu thêm
                 </p>
+
             </div>
 
             <div class="contact-container">
 
+                <!-- THÔNG TIN LIÊN HỆ -->
                 <div class="contact-info">
 
                     <h3>Đại học Đại Nam</h3>
@@ -269,28 +313,126 @@
                     <p>🌐 Website: dainam.edu.vn</p>
 
                     <p>
-                        📩 Hãy liên hệ với chúng tôi
-                        để tìm hiểu thêm.
+                        📩 Tìm hiểu thông tin tuyển sinh
+                        và các hoạt động của trường tại
+                        website chính thức.
                     </p>
+
+                    <a class="button"
+                        href="https://dainam.edu.vn/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        Truy cập website trường
+
+                    </a>
 
                 </div>
 
 
-                <form>
+                <!-- BIỂU MẪU LIÊN HỆ -->
+                <form action="#" method="get">
 
-                    <input type="text"
-                           placeholder="Họ và tên">
+                    <div class="form-group">
 
-                    <input type="email"
-                           placeholder="Địa chỉ email">
+                        <label for="fullname">
+                            Họ và tên <span>(bắt buộc)</span>
+                        </label>
 
-                    <input type="tel"
-                           placeholder="Số điện thoại">
+                        <input type="text"
+                            id="fullname"
+                            name="fullname"
+                            placeholder="Ví dụ: Nguyễn Văn A"
+                            aria-label="Họ và tên"
+                            required>
 
-                    <textarea rows="5"
-                              placeholder="Nội dung cần tư vấn"></textarea>
+                    </div>
 
-                    <button type="button">
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Số điện thoại
+                        </label>
+
+                        <input type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Ví dụ: 0987654321"
+                            aria-label="Số điện thoại">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email <span>(bắt buộc)</span>
+                        </label>
+
+                        <input type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Ví dụ: tenban@example.com"
+                            aria-label="Địa chỉ email"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="service">
+                            Nội dung cần tư vấn
+                        </label>
+
+                        <select id="service"
+                            name="service"
+                            aria-label="Nội dung cần tư vấn">
+
+                            <option value="">
+                                Chọn nội dung cần tư vấn
+                            </option>
+
+                            <option value="tuyen-sinh">
+                                Thông tin tuyển sinh
+                            </option>
+
+                            <option value="nganh-hoc">
+                                Thông tin ngành học
+                            </option>
+
+                            <option value="hoc-phi">
+                                Học phí và học bổng
+                            </option>
+
+                            <option value="khac">
+                                Nội dung khác
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group form-group-full">
+
+                        <label for="message">
+                            Ghi chú hoặc câu hỏi
+                        </label>
+
+                        <textarea id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Nhập nội dung cần tư vấn..."
+                            aria-label="Ghi chú hoặc câu hỏi"></textarea>
+
+                    </div>
+
+
+                    <!-- NÚT GỬI ĐÃ SỬA -->
+                    <button type="submit"
+                        style="pointer-events: auto !important; cursor: pointer; opacity: 1;">
                         Gửi thông tin
                     </button>
 
@@ -303,7 +445,7 @@
     </main>
 
 
-    <!-- FOOTER: CHÂN TRANG -->
+    <!-- FOOTER -->
     <footer>
 
         <h2>ĐẠI HỌC ĐẠI NAM</h2>
@@ -314,15 +456,21 @@
 
         <p>
             Website chính thức:
-            <a href="https://dainam.edu.vn"
-               target="_blank"
-               rel="noopener noreferrer">
+
+            <a href="https://dainam.edu.vn/"
+                target="_blank"
+                rel="noopener noreferrer">
+
                 dainam.edu.vn
+
             </a>
         </p>
 
         <div class="copyright">
-            © 2026 Đại học Đại Nam. All rights reserved.
+
+            © 2026 - Bài tập lớn Thiết kế Web
+            | Sinh viên: Phạm Hùng Vỹ
+
         </div>
 
     </footer>
